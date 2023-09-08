@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(
+        135deg,
+        #c30505 0%,
+        #ff5151 25%,
+        #512b9e 25%,
+        #512b9e 25%,
+        #b18aff 75%,
+        #203ea8 75%,
+        #5178ff 100%
+    );
+    position: relative;
+}
