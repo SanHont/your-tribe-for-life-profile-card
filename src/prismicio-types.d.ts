@@ -22,17 +22,6 @@ interface VisitekaartjeDocumentData {
   title: prismic.KeyTextField;
 
   /**
-   * Image field in *VisiteKaartje*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: visitekaartje.image
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#image
-   */
-  image: prismic.ImageField<never>;
-
-  /**
    * Slice Zone field in *VisiteKaartje*
    *
    * - **Field Type**: Slice Zone
@@ -99,6 +88,16 @@ export type AllDocumentTypes = VisitekaartjeDocument;
  */
 export interface TitleSliceDefaultPrimary {
   /**
+   * image field in *Title → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: title.primary.image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
    * title field in *Title → Primary*
    *
    * - **Field Type**: Rich Text
@@ -107,6 +106,36 @@ export interface TitleSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   title: prismic.RichTextField;
+
+  /**
+   * info field in *Title → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: title.primary.info
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  info: prismic.RichTextField;
+
+  /**
+   * info1 field in *Title → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: title.primary.info1
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  info1: prismic.RichTextField;
+
+  /**
+   * info2 field in *Title → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: title.primary.info2
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  info2: prismic.RichTextField;
 }
 
 /**

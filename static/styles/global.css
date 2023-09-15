@@ -8,15 +8,19 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
     background-image: linear-gradient(
         135deg,
-        #c30505 0%,
-        #ff5151 25%,
-        #512b9e 25%,
-        #512b9e 25%,
-        #b18aff 75%,
-        #203ea8 75%,
-        #5178ff 100%
+        #6512B8 0%,
+        #6512B8 25%,
+        #FFAA01 25%,
+        #FFAA01 25%,
+        #CA8738 75%,
+        #01DAC5 75%,
+        #14B4C2 100%
     );
     position: relative;
 }
